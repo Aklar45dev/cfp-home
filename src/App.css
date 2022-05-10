@@ -79,32 +79,29 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  filter: brightness(1);
+  filter: brightness(90%);
+  transition: all 0.25s;
+}
 
+.btn:hover{
+  filter: brightness(135%);
+  cursor: pointer;
+  transition: all 0.25s;
 }
 
 .btn img {
   width: -webkit-fill-available;
   border-radius: 1em;
+  filter: brightness(70%);
   z-index: -1;
-  filter: brightness(0.65);
 }
 
 .btn p {
   position: absolute;
   text-align: center;
   color: white;
-  text-shadow: 3px 3px 3px #555555;
+  text-shadow: 3px 3px 3px #333333;
   font-size: 1em;
-}
-
-.btn:hover{
-  filter: brightness(1.25);
-  cursor: pointer;
-}
-
-.btn:active{
-  opacity: 1.0;
 }
 
 @media only screen and (max-width: 600px) {
