@@ -19,7 +19,7 @@ function App() {
       <div className='btn-container'>
         <button className='btn' onClick={() => openApp('https://boussole.cfpvaldorapp.com/')}><img src="https://cfpvd-bucket.s3.ca-central-1.amazonaws.com/boussole/Image15.png"/><p>Boussole</p></button>
         <button className='btn' onClick={() => openApp('https://entretien.cfpvaldorapp.com/')}><img src="./images2.jpg"/><p>Entretien</p></button>
-        <button className='btn' onClick={() => openApp('https://formation.cfpvaldorapp.com/')}><img src="./images3.jpg"/><p>Formation Mine</p></button>
+        <button className='btn' onClick={() => openApp('https://formation-securite.cfpvaldorapp.com/')}><img src="./images3.jpg"/><p>Formation Mine</p></button>
       </div>
     </div>
   );
